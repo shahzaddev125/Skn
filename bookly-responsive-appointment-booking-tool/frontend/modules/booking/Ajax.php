@@ -460,19 +460,18 @@ class Ajax extends Lib\Base\Ajax
             ) {
                 $html .= self::renderTemplate( '_login_form', array(), false );
             }
-
-
 /*Redirect For Consultation Page*/
+
+
 $host = $_SERVER['HTTP_REFERER'];
 if($host == 'https://sknelements.com/consultations/' || $host == 'http://sknelements.com/consultations/') {
 	//$woocommerce_enabled ='';
 }else{$woocommerce_enabled = (int) Lib\Config::wooCommerceEnabled();}
    
 
-/*Redirect For Consultation Page*/
+
 			
-			
-            
+/*Redirect For Consultation Page*/            
 			
 			$response = array(
                 'success'               => true,
