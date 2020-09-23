@@ -1,3 +1,4 @@
+<!--Change Button position For Booking Step 2 And css For Mobile And Desktop-->
 <?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 /** @var \BooklyServiceExtras\Lib\Entities\ServiceExtra $extra */
 use Bookly\Lib\Utils\Common;
@@ -108,3 +109,4 @@ $amount = 0;
 }
 
 </style>
+<!--Change Button position For Booking Step 2 And css For Mobile And Desktop-->
