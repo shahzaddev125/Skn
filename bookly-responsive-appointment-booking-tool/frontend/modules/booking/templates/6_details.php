@@ -10,7 +10,7 @@ echo $progress_tracker;
 //print_r($_SESSION);
 ?>
 
-
+<!--Button replacement And Other changes in Step Six Jquery Work-->
 
 <div class="bookly-box"><?php echo $info_text ?></div>
 <?php if ( $info_text_guest ) : ?>
@@ -117,3 +117,4 @@ echo $progress_tracker;
 <script>
 jQuery('.page-id-50 .bookly-custom-fields-container input[type="checkbox"]').prop('checked', true);
 </script>
+<!--Button replacement And Other changes in Step Six Jquery Work-->
