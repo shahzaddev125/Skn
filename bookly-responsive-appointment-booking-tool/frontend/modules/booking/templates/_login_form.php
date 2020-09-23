@@ -4,7 +4,9 @@
         <div class="bookly-modal-content">
             <form>
                 <div class="bookly-modal-header">
+               <!-- Change Name to Skn Account-->
                     <div><?php esc_html_e( 'Login to your Skn Account', 'bookly' ) ?></div>
+                    <!-- Change Name to Skn Account-->
                     <button type="button" class="bookly-close bookly-js-close">×</button>
                 </div>
                 <div class="bookly-modal-body bookly-form">
