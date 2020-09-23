@@ -3,6 +3,7 @@ use Bookly\Lib\Config;
 use Bookly\Frontend\Modules\Booking\Proxy;
 use Bookly\Lib\Utils;
 ?>
+<!--Button replacement-->
 <?php echo $progress_tracker ?>
 <div class="bookly-box"><?php echo $info_text ?></div>
 <?php Proxy\Shared::renderWaitingListInfoText() ?>
@@ -51,3 +52,4 @@ use Bookly\Lib\Utils;
     </div>
     <?php endif ?>
 </div>
+<!--Button replacement-->
