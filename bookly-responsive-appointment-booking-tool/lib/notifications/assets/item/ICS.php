@@ -39,10 +39,11 @@ class ICS
      * Create ICS file.
      *
      * @return bool|string
-     */
+	 Change bookly ics file name to Skn_Elements
+     */ 
     public function create()
     {
-        $path = tempnam( sys_get_temp_dir(), 'Bookly_' );
+        $path = tempnam( sys_get_temp_dir(), 'Skn_Elements_' );
 
         if ( $path ) {
             $info = pathinfo( $path );
