@@ -1,4 +1,5 @@
-<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly This page Edited For customization Account->Appointment page button css 
 use Bookly\Lib as BooklyLib;
 
 
@@ -213,3 +214,4 @@ a.appointmemnt-acount-pg.fusion-bottombar-highlight {
 }
 }
 </style>
+<!--// Exit if accessed directly This page Edited For customization Account->Appointment page button css -->
