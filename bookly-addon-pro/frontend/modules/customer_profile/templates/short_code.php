@@ -22,7 +22,7 @@ $container = 'bookly-js-appointments-list-' . mt_rand( 0, PHP_INT_MAX );
         <h2><?php esc_html_e( 'Appointments', 'bookly' ) ?></h2>
         
         <div class="mb-extra-btn">
-        <a href="http://skndev.wpengine.com/book-an-appointment/" class="appointmemnt-acount-pg fusion-bottombar-highlight mobile-acc-btn"><span class="menu-text fusion-button button-default button-large">Book a new appointment</span></a>
+        <a href="https://sknelements.com/book-an-appointment/" class="appointmemnt-acount-pg fusion-bottombar-highlight mobile-acc-btn"><span class="menu-text fusion-button button-default button-large">Book a new appointment</span></a>
         
         
 		<?php if ( $more ) : ?>
