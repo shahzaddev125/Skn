@@ -6,6 +6,7 @@ echo $progress_tracker;
 
 
 ?>
+<!--A Lot of changes in this page some jquery functions and button replacemnt Next Back-->
 <div class="bookly-service-step">
     <div class="bookly-box bookly-bold"><?php echo $info_text ?></div>
     <div class="bookly-mobile-step-1 bookly-js-mobile-step-1">
@@ -128,3 +129,4 @@ jQuery( document ).ready(function() {
     </div>
 </div>
 
+<!--A Lot of changes in this page some jquery functions and button replacemnt Next Back-->
